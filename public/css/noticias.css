@@ -1,0 +1,109 @@
+.bg-zinc-900 {
+    background-color: #ACACAC;
+}
+.bg-zinc-800 {
+    background-color: #1E1E1E;
+}
+
+.border-green-500 {
+    border-color: #38a169;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.bg-black {
+    background-color: #1E1E1E;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.max-w-4xl {
+    max-width: 64rem;
+}
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.space-x-4 > *:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.bg-zinc-300 {
+    background-color: #9aa1b0;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.text-green-500 {
+    color: #32CD32;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: -0.5rem;
+}
+
+.space-y-6 > *:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.news-item .w-24 {
+    width: 6rem;
+}
+
+.news-item .h-24 {
+    height: 6rem;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+
+.hover\:underline:hover {
+    text-decoration: underline;
+}

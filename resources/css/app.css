@@ -1,0 +1,403 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-zinc-300 {
+    background-color: #18181B;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+/* Clases del segundo CSS */
+.search-results {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.search-results .result-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-results .result-item:hover {
+    background-color: #f0f0f0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1E1E1E;
+}
+
+.navbar {
+    background-color: #ACA8A7;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section, .right-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-section .logo, .right-section .profile {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.nav-link {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.search-container {
+    position: relative;
+    margin-right: 1rem;
+}
+
+.search-input {
+    background-color: white;
+    border-radius: 9999px;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.bg-zinc-200 {
+    background-color: #18181B ;
+}
+
+.bg-zinc-800 {
+    background-color: #000000;
+}
+
+.bg-zinc-900 {
+    background-color: #8151C;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.space-x-2 > * + * {
+    margin-left: 0.5rem;
+}
+
+.space-x-4 > * + * {
+    margin-left: 1rem;
+}
+
+.h-8 {
+    height: 10rem;
+}
+
+.w-8 {
+    width: 10rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-green-500 {
+    color: #32CD32;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+}
+
+.h-4{
+    height: 1rem;
+}
+
+.w-4 {
+    width: 1rem;
+}
+
+/* Estilos del primer CSS */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #18181B;
+}
+
+.navbar {
+    background-color: #ACA8A7;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section, .right-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-section .logo, .right-section .profile {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.nav-link {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.search-container {
+    position: relative;
+    margin-right: 1rem;
+}
+
+.search-input {
+    background-color: white;
+    border-radius: 9999px;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.bg-zinc-200 {
+    background-color: #18181B;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-zinc-800 {
+    background-color: #000000;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.max-w-screen-md {
+    max-width: 48rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.content-container {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem;
+    width: 100%;
+    max-width: 48rem;
+}
+
+.main-image {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.description {
+    margin-bottom: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.grid-image {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.section-title {
+    color: #32CD32;
+    margin-bottom: 0.5rem;
+}
+
+.trailer-image {
+    width: 100%;
+}
+
+.trailer-description {
+    margin-top: 0.5rem;
+}
+
+.featured-section {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 1rem;
+    margin-top: 0;
+}
+
+.featured-title {
+    color: #32CD32;
+    margin-bottom: 1rem;
+}
+
+.featured-images {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+}
+
+.featured-image {
+    flex-shrink: 0;
+    width: 100px;
+    height: 150px;
+}
+
+.bg-zinc-900 {
+    background-color: #8151C;
+}
+
+.text-green-500 {
+    color: #32CD32;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h-8 {
+    height: 10rem;
+}
+
+.w-8 {
+    width: 10rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.h-4 {
+    height: 1rem;
+}
+
+.w-4 {
+    width: 1rem;
+}
+
+
+
